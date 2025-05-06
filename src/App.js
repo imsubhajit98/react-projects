@@ -1,5 +1,5 @@
 import logo from "./logo.svg";
-import "./App.css";
+// import "./App.css";
 import Accordian from "./components/accordian";
 import RandomColor from "./components/random-color";
 import StarRating from "./components/star-rating";
@@ -11,6 +11,9 @@ import menus from "./components/tree-view/data";
 import QrCodeGenerator from "./components/qr-code-generator";
 import LightDarkMode from "./components/light-dark-mode";
 import ScrollIndicator from "./components/scroll-indecator";
+import TabTest from "./components/custom-tabs/tabs-test";
+import ModelTest from "./components/custom-model-popup/model-test.jsx";
+
 
 function App() {
   return (
@@ -44,7 +47,14 @@ function App() {
       {/* <LightDarkMode/> */}
 
       {/* Scroll Indicator */}
-      <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} />
+      {/* <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} /> */}
+
+      {/* Custom Tabs */}
+      {/* <TabTest/> */}
+
+      {/* Custom Model */}
+      <ModelTest/>
+      
     </div>
   );
 }

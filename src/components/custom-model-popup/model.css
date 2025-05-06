@@ -1,0 +1,28 @@
+.model {
+  position: fixed;
+  z-index: 1;
+  padding-top: 150px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: #00000080;
+}
+
+.model-content {
+  position: relative;
+  background-color: #fff;
+  margin: auto;
+  padding: 0;
+  border: 1px solid red;
+  max-width: 600px;
+  width: 60%;
+  padding: 20px;
+}
+
+.close-model-icon {
+  cursor: pointer;
+  font-size: 30px;
+  float: right;
+}

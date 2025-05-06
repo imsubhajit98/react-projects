@@ -1,0 +1,31 @@
+.heading {
+  display: flex;
+  /* gap: 20px; */
+}
+
+.tabs {
+  border: 1px solid #000;
+  padding: 3px 5px;
+  cursor: pointer;
+}
+
+.wrappers {
+  display: flex;
+  justify-content: start;
+  padding: 50px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wrappers .contents {
+  padding: 10px;
+}
+.tabs {
+  background-color: #2b2b2b;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.tabs-active {
+  background-color: blueviolet;
+}
