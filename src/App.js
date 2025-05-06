@@ -8,6 +8,9 @@ import LoadMoreData from "./components/load-more-data";
 import TreeView from "./components/tree-view";
 
 import menus from "./components/tree-view/data";
+import QrCodeGenerator from "./components/qr-code-generator";
+import LightDarkMode from "./components/light-dark-mode";
+import ScrollIndicator from "./components/scroll-indecator";
 
 function App() {
   return (
@@ -27,8 +30,21 @@ function App() {
         page={"1"}
         limit={"10"}
       /> */}
+
+      {/* Load More Data */}
       {/* <LoadMoreData /> */}
-      <TreeView menus={menus} />
+
+      {/* Menu List */}
+      {/* <TreeView menus={menus} /> */}
+
+      {/* QR Code Generator */}
+      {/* <QrCodeGenerator/> */}
+
+      {/* Light Dark Mode */}
+      {/* <LightDarkMode/> */}
+
+      {/* Scroll Indicator */}
+      <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} />
     </div>
   );
 }
